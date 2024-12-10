@@ -10,3 +10,30 @@
   flex: 1 1 auto;
   overflow-y: scroll;
 }
+
+@media screen and (max-width: 768px) {
+  .list {
+    padding: 0.5rem;
+  }
+
+  .todo {
+    padding: 0.5rem;
+  }
+
+  .todoText {
+    font-size: 1.2rem;
+  }
+
+  .todoActions {
+    gap: 0.5rem;
+  }
+
+  .todoActions button {
+    font-size: 1rem;
+    padding: 0.2rem 0.5rem;
+  }
+
+  .todoCompleted {
+    font-size: 1rem;
+  }
+}
